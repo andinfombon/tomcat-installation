@@ -22,4 +22,10 @@ HOT FIXES
 
 vi /opt/tomcat9/webapps/jsps/jsps
 
+GRANT PASSWORD AUTHENTICATION
+
+sudo vi /etc/ssh/sshd_config
+
+then, change PasswordAuthentication from "no" to "yes"
+
 
